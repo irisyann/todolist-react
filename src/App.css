@@ -1,0 +1,42 @@
+body {
+    background-color: #002b53;
+}
+
+.check:hover {
+    transition: 0.5s;
+    cursor: pointer;
+    color: rgb(255, 185, 128) !important;
+}
+
+.title-text {
+    color: #bbdeff;
+}
+
+.check {
+    margin-right: 2px;
+    color: rgb(255, 174, 0) !important;
+}
+
+.addTodoInput {
+    color: white;
+    opacity: 0.9;
+    border-bottom: 1px solid #76bdff !important;
+}
+
+.addTodoInput:focus {
+    border-bottom: 3px solid #76bdff !important;
+}
+
+.collection-item {
+    transition: 0.3s ease-in-out;
+    background-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+.collection-item:hover {
+    background-color: rgba(255, 255, 255, 0.4) !important;
+}
+
+.collection {
+    background-color: rgb(255, 255, 255, 0.2);
+}
+
