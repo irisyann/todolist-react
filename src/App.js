@@ -7,16 +7,9 @@ import './App.css';
 class App extends Component {
   state = {
     todos: Store.getTodos()
-    // todos: [
-    //   {id: 1, content: 'buy cookies'},
-    //   {id: 2, content: 'play minecraft'}
-    // ]
   }
 
   deleteTodo = id => {
-    // const todos = this.state.todos.filter(todo => {
-    //   return todo.id !== id;
-    // });
     Store.deleteTodo(id);
 
     this.setState({
@@ -32,11 +25,6 @@ class App extends Component {
       todos: Store.getTodos()
 
     })
-    // let todos = [...this.state.todos, todo];
-
-    // this.setState({
-    //   todos
-    // })
   }
 
   render(){
