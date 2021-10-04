@@ -1,5 +1,5 @@
 body {
-    background-color: #002b53;
+    background-color: #F2CE7C;
 }
 
 .check:hover {
@@ -9,34 +9,51 @@ body {
 }
 
 .title-text {
-    color: #bbdeff;
+    color: #D22C41;
+}
+
+.done-text {
+    color: #4E301C;
+    font-weight: bold;
 }
 
 .check {
     margin-right: 2px;
-    color: rgb(255, 174, 0) !important;
+    color: #F2BE3A !important;
+}
+
+form {
+    width: 50%;
+    margin: auto;
 }
 
 .addTodoInput {
-    color: white;
+    color: #4E301C;
     opacity: 0.9;
-    border-bottom: 1px solid #76bdff !important;
+    border-bottom: 1px solid #D22C41 !important;
 }
 
 .addTodoInput:focus {
-    border-bottom: 3px solid #76bdff !important;
+    border-bottom: 5px solid #D22C41 !important;
+}
+
+.addTodoInput::placeholder {
+    color: #4E301C;
 }
 
 .collection-item {
     transition: 0.3s ease-in-out;
-    background-color: rgba(255, 255, 255, 0.2) !important;
+    background-color: #4E301C !important;
 }
 
 .collection-item:hover {
-    background-color: rgba(255, 255, 255, 0.4) !important;
+    background-color: #4E301C !important;
+    opacity: 0.7;
 }
 
 .collection {
     background-color: rgb(255, 255, 255, 0.2);
+    width: 50%;
+    margin: auto;
 }
 
