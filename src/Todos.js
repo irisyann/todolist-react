@@ -14,7 +14,7 @@ const Todos = ({todos, deleteTodo}) => {
             )
         })
     ) : (
-        <p className="center white-text">Yay! You're all done! Go chill now :)</p>
+        <p className="center done-text">Yay! You're all done! Go chill now :)</p>
     )
 
 
